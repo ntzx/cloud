@@ -8,7 +8,7 @@ http://www.bootcss.com/
 
 ## 开源许可 
 
-MIT L
+MIT LICENSE
 
 
 ## 制作人员
