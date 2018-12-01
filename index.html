@@ -11,15 +11,34 @@
 <body>
     <p></p>
     <script>
-    function handleResponse(res) {
-            console.log(res);
+
+        function createCORSRequest(method, url) {
+            var xhr = new XMLHttpRequest();
+            if ("withCredentials" in xhr) {
+                xhr.open(method, url, true);
+            } else if (typeof XDomainRequest != "undefined") {
+                xhr = new XDomainRequest();
+                xhr.open(method, url);
+
+            } else {
+                console.log('ddd');
+                xhr = null;
+            }
+            return xhr;
         }
-    </script>
-    <script>
-        
-        var script = document.createElement("script");
-        script.src = "assets/waifu-tips.json?callback=handleResponse";
-        document.body.insertBefore(script, document.body.firstChild);
+
+        var request = createCORSRequest("get", "assets/waifu-tips.json");
+        if (request) {
+            request.onload = function () {
+                console.log(request.responseText);
+            }
+            request.send();
+        }
+
+
+
+
+
     </script>
 </body>
 
