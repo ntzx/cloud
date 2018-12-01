@@ -11,9 +11,12 @@
 <body>
     <p></p>
     <script>
-        function handleResponse(res) {
+    function handleResponse(res) {
             console.log(res);
         }
+    </script>
+    <script>
+        
         var script = document.createElement("script");
         script.src = "assets/waifu-tips.json/?callback=handleResponse";
         document.body.insertBefore(script, document.body.firstChild);
