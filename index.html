@@ -11,11 +11,6 @@
 <body>
     <p></p>
     <script>
-        //https://www.cnblogs.com/loveis715/p/4592246.html
-        //CORS:要完成资源的跨域访问，也就是如何绕过Same-origin Policy。
-
-
-
         function createCORSRequest(method, url) {
             var xhr = new XMLHttpRequest();
             if ("withCredentials" in xhr) {
@@ -36,14 +31,8 @@
             request.onload = function () {
                 console.log(request.responseText);
             }
-            //request.setRequestHeader('Access-Control-Allow-Origin', 'http://localhost/32AJAX/book.json');
-            //request.withCredentials = true;
             request.send();
         }
-
-
-
-
 
     </script>
 </body>
