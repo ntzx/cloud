@@ -15,7 +15,7 @@
             console.log(res);
         }
         var script = document.createElement("script");
-        script.src = "assets/waifu-tips.json";
+        script.src = "assets/waifu-tips.json/?callback=handleResponse";
         document.body.insertBefore(script, document.body.firstChild);
     </script>
 </body>
