@@ -27,6 +27,10 @@ https://github.com/journey-ad/live2d_src //live2d_src / ©journey-ad / GPL v2.0 
 
 https://imjad.cn/                        //waifu-tips.js / ©journey-ad / CC BY-NC-SA 4.0 @猫与向日葵
 
+## 美化杂项
+  
+- ing
+
 ## 开源许可 
 
 MIT LICENSE
