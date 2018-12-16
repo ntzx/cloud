@@ -19,13 +19,13 @@ http://www.bootcss.com/
 
 - 版权声明
 
-https://live2d.fghrsh.net/               //搬运自@fghrsh大佬
+  https://live2d.fghrsh.net/               //搬运自@fghrsh大佬
 
-https://designmodo.com/flat-free/        //Flat UI Free
+  https://designmodo.com/flat-free/        //Flat UI Free
 
-https://github.com/journey-ad/live2d_src //live2d_src / ©journey-ad / GPL v2.0 基于 #fea64e4 的修改版
+  https://github.com/journey-ad/live2d_src //live2d_src / ©journey-ad / GPL v2.0 基于 #fea64e4 的修改版
 
-https://imjad.cn/                        //waifu-tips.js / ©journey-ad / CC BY-NC-SA 4.0 @猫与向日葵
+  https://imjad.cn/                        //waifu-tips.js / ©journey-ad / CC BY-NC-SA 4.0 @猫与向日葵
 
 ## 开源许可 
 
