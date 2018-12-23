@@ -5,8 +5,14 @@
 
 .lead{
     font-size: 20px;
+    line-height:180%;
 }
 
 .featurette-heading {
     margin-bottom: 20px;
+}
+
+.introduction{
+    height:380px;
+    margin-top: 60px;
 }
