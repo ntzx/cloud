@@ -60,6 +60,16 @@ body {
   height: 800px;
 }
 
+@media screen and (max-width: 770px) {
+   .carousel{
+        height: 400px;
+    }
+    .carousel-inner{height: 100%;}
+    .carousel .item {height: 100%;}
+    .carousel-inner > .item > img{max-height: 100%;height: 100%;}
+    /*箭头*/
+    .glyphicon-chevron-left, .glyphicon-chevron-right{font-size: 40px;}
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
