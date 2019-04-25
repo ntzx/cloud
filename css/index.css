@@ -1,19 +1,221 @@
-/*START THE FEATURETTES*/
-.featurette-heading {
-    text-align: center;
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+
 }
 
-.lead{
-    font-size: 20px;
-    line-height:180%;
+li{
+  list-style: none;
 }
 
-.featurette-heading {
-    margin-bottom: 20px;
+/*bg_banner */
+
+ .bg_banner{
+     height: 700px;
+  width: 100%;
+ position:relative;
+ margin-bottom: 50px;
+ }
+
+ .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+ .decription {
+  z-index: 100;
+  top:50px;
+ left:20%;
+  width:60%;
+  height:400px;
+  position: absolute;
+}
+.decription h1{
+  width:100%;
+  text-align: center;
+  color: #ef6926;
+  letter-spacing: 6px;
 }
 
-.introduction{
-    height:380px;
-    margin-top: 60px;
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
 }
-.glyphicon-pawn, .glyphicon-king, .glyphicon-knight{font-size: 140px;}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.glyphicon{
+  font-size: 96px;
+}
+.glyphicon-cloud{
+  color:#1cc7d0;
+}
+.glyphicon-file{
+  color: #ef6926
+}
+.glyphicon-user{
+  color: #a626aa;
+}
+
+/*tab标签*/
+#myTabContent{
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.pic{
+  max-height: 100%;
+margin-top: 40px;
+margin: 0 auto;
+}
+
+.pic img{
+  width: 100%;
+  height:100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.nav-tabs>li.active>a{
+  color: #337ab7 !important;
+  border-color: #ef6926 !important;
+  border-bottom-color: #fff !important;
+}
+.nav-tabs>li>a{
+  color: #000;
+}
+.lead {
+    font-size: 18px;
+    line-height: 28px;
+  }
+/*成员名单*/
+.lead li{
+  list-style: none;
+  padding:10px 0;
+  font-size: 16px;
+}
+
+ul.lead li:hover{
+  background: #555;
+  font-size: 20px;
+}
+
+/*tab里的轮播*/
+.tab-pane{
+  height:250px;
+  overflow-y: auto;
+}
+.tab-pane ul{
+  
+  width:80%;
+  height:100%;
+  margin: 0 auto;
+  padding:0;
+  margin-bottom: 20px;
+  background: #5555551a;
+}
+
+/*照片墙*/
+ 
+.pic_wall{
+  clear: both;
+  margin-top: 20px;
+  text-align: center;
+}
+.pic_wall h2{
+text-align: center;
+}
+.pic_wall ul{
+  
+  box-shadow:0px 0px 20px #aaaaaa;
+  padding: 0;
+width:15%;
+height:150px;
+margin-right: 2%;
+float: left;
+overflow: hidden;
+}
+.pic_wall ul:nth-child(6n){
+  margin-right: 0;
+}
+
+
+.pic_wall ul li:nth-child(1){
+ margin-top: 15px;
+  height: 50%;
+  
+}
+.pic_wall ul li:nth-child(1) img{
+
+  max-width: 100%;
+  max-height: 100%;
+ 
+}
+.pic_wall ul li:nth-child(2){
+ height:20px;
+     font-size: 20px;
+    font-weight: bold;
+}
+.pic_wall ul li:nth-child(3){
+ clear: both;
+  text-align: center;
+  margin-top: 10px;
+}
+.pic_wall ul li:nth-child(3) a{
+  color: #fff;
+  background:#555555d9;
+  padding: 5px 10px;
+  
+  
+}
+.pic_wall ul li:nth-child(3) a:hover{
+  text-decoration: none;
+}
+.pic_wall ul li p{
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+}
+@media screen and (max-width: 415px) {
+     .bg_banner{
+         height:300px;
+     }
+     .decription {
+         height:200px;
+     }
+     .decription h1{
+         font-size: 18px;
+     }
+
+     /*照片墙*/
+.pic_wall ul{
+  width:40%;
+}
+     
+}
+@media screen and (max-width: 768px){
+.tab-pane{
+  margin-bottom: 30px;
+}
+
+ #div3{
+   padding-left: 10%;
+   
+ }
+ .pic_wall ul:nth-child(1n){
+  margin-right: 10%;
+}
+}

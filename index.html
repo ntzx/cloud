@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://v3.bootcss.com/examples/carousel/ -->
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Cloud_NTZX</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+        <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+
+
+
+  <link href="css/index.css" rel="stylesheet">
+
+</head>
+<!-- NAVBAR
+================================================== -->
+
+<body>
+  <!-- waifu-tips.js 依赖 JQuery 库 -->
+  <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- 使用 aotuload.js 引入看板娘 -->
+  <script src="assets/autoload.js"></script>
+
+  <!--大图-->
+  <div class="bg_banner">
+    <div class="item">
+      <img class="first-slide" src="image/7.jpg" alt="First slide">
+    </div>
+    <!--背景图上的字-->
+
+    <div class="decription">
+      <h1>南通中学 云平台</h1>
+    </div>
+  </div><!-- /.carousel -->
+
+  <!-- Marketing messaging and featurettes
+    ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <p><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span></p>
+        <h2>社团介绍</h2>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <p><span class="glyphicon glyphicon-file" aria-hidden="true"></span></p>
+        <h2>社团项目</h2>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <p><span class=" glyphicon glyphicon-user" aria-hidden="true"></span></p>
+        <h2>成员名单</h2>
+
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+
+  <hr>
+  <!--tab标签-->
+  <div class="tab_block container">
+    <!--左边文字部分-->
+    <div class="col-md-6 col-x-12">
+      <ul id="myTab" class="nav nav-tabs">
+        <li class="active">
+          <a href="#div1" data-toggle="tab">
+            社团介绍
+          </a>
+        </li>
+        <li><a href="#div2" data-toggle="tab">社团项目</a></li>
+      </ul>
+      <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="div1">
+          <p class="lead">为了充分发挥同学们的课余时间，促进学生的兴趣与能力的协调发展，开发和激发学生的创造性思维和能力，开发智力，提高学生的计算机能力，云平台应运而生。
+            目前，我们正在学习html,css以及javascript目前较为流行的网站编程语言，在新的一学期中，社团新成员们在老成员的指导下认真学习这几个前端，为今后开发网页做准备。
+            一台台电脑前舞动着青春的梦想，手指在键盘上翩飞，编织出无限精彩。
+            老成员耐心的指导讲解，他们的眼中注满智慧的光芒，领导新人们进入一个技术化、网络化的世界。
+            新成员成功学会运用语言的样子，他们快乐的笑容为校园添一抹亮色。</p>
+        </div>
+        <div class="tab-pane fade" id="div2">
+          <table class="table">
+
+            <thead>
+              <tr>
+                <th>时间</th>
+                <th>项目名称</th>
+                <th>详情</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2019年</td>
+                <td>辩赛报名系统</td>
+                <td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+                    查看详情
+                  </button>
+                  <!-- 模态框（Modal） -->
+                  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <div class="modal-body">
+                          为通中和一中友谊辩赛提供报名入口和管理员入口，为组织者简化了工作流程，提高了工作效率。
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                          </button>
+                        </div>
+                      </div><!-- /.modal-content -->
+                    </div><!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>2018年</td>
+                <td>云平台宣传网页</td>
+                <td>
+                  <button class="btn btn-primary " data-toggle="modal" data-target="#myModal2">
+                    查看详情
+                  </button>
+                  <!-- 模态框（Modal） -->
+                  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <div class="modal-body">
+                          分为社团简介、社团项目和成员名单三个版块。让同学们更好地了解云平台，提高计算机社团知名度。
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                          </button>
+                        </div>
+                      </div><!-- /.modal-content -->
+                    </div><!-- /.modal -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- <p class="lead">初期学习HTML,CSS等，掌握基本的前端技能；
+            然后呢，就接一些委托吧~~~~~
+            帮助其他社团做一些宣传网站。
+            迄今为止，我们我们完成的项目有：
+            研学活动申请网页，社团活动申请网页，通中一种友谊辩赛报名网页等等。
+            我们有明确的分工，文字组，图片组，代码组…….各社团的线上宣传将会和线下活动一样多姿多彩！
+          </p> -->
+        </div>
+
+      </div>
+
+    </div>
+    <!--右边图片-->
+    <div class="col-md-5  col-md-offset-1 col-xs-12 pic ">
+      <img src="image/12.jpg" alt="">
+    </div>
+  </div>
+
+  <hr>
+  <!--照片墙-->
+  <div class="container pic_wall">
+    <h2>成员名单</h2>
+    <div id="div3">
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><small>Copyright (c) 2018 南通中学云平台团队</small></p>
+    <p><small><a href="https://www.ntzx.cn" target="_blank">南通中学官网</a></small></p>
+    <p><small><a href="https://ntzx.github.io/Geek-/index.html" target="_blank">极客社宣传网页</a></small></p>
+
+  </footer>
+  <p class="pull-right"><a href="javascript:scrollTo(0,0);">回到顶部</a></p>
+
+
+  <!-- Bootstrap core JavaScript
+      ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/picwall.js"></script>
+
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+
+  </script>
+
+</body>
+
+</html>
