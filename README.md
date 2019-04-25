@@ -1,6 +1,6 @@
 # 云平台宣传网页  cloud
 
-https://ntzx.github.io/cloud/Cloud_1.html
+https://ntzx.github.io/cloud/index.html
 
 ## 使用框架
 
